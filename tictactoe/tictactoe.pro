@@ -22,6 +22,7 @@ SOURCES += \
         player.cpp
 
 HEADERS += \
+    IPlayer.h \
     bot.h \
     game.h \
     player.h

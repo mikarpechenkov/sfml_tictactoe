@@ -137,6 +137,9 @@ bool Game::start_game() {
                 if (event.type == sf::Event::Closed)
                     main_window.close(); //закрываем окно
 
+                if(event.key.code==sf::Keyboard::Escape)
+                    main_window.close();
+
                 //Обрабатываем выбор крестика или нолика (выбор пользователя, чем он хочет играть)
                 //По сути обрабатываем нажаите кнопки мыши
                 if (event.type == sf::Event::MouseButtonPressed) {

@@ -2,9 +2,10 @@
 #define PLAYER_H
 
 #include <SFML/Graphics.hpp>
+#include "iplayer.h"
 
 /*Класс для сущности игрок*/
-class Player {
+class Player :public IPlayer{
 protected:
     sf::Sprite game_cells[9]; //Фигуры игрока, хранящие правильные позиции на поле
     bool cells_visibility[9]; //Видимость фигур в клетках

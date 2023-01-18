@@ -4,7 +4,7 @@
 #include "player.h"
 
 /*Дочерний класс для бота*/
-class Bot : public Player {
+class Bot : public Player{
 private:
     //Метод для генерации рандомной ячейки
     int generate_random_bot_cell(const bool filled_cells[]);
