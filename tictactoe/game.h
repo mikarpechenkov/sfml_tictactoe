@@ -49,7 +49,7 @@ private:
     //Функция инициализации информационных labels
     void init_labels(std::string result_info);
 
-    Game(); //КОнструктор приватныйй, потому что реализуем паттерн одиночка
+    Game();
 
 public:
 
