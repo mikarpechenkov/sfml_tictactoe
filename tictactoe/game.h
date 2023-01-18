@@ -49,11 +49,11 @@ private:
     //Функция инициализации информационных labels
     void init_labels(std::string result_info);
 
-public:
-    Game();
+    Game(); //КОнструктор приватныйй, потому что реализуем паттерн одиночка
 
     ~Game(); //Деконструктор необходим, так как Player и Bot - указатели
 
+public:
     //Функция игрового процесса с
     static void game_running();
 };
